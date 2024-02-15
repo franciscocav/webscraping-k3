@@ -37,4 +37,4 @@ df['Loja'] = 'K3 DISTRIBUIDORA'
 
 with pd.ExcelWriter("extrato_k3_distribuidora.xlsx") as writer:
     df.to_excel(writer, sheet_name="Informática", index=False)
-print("Webscraping Realizado com sucesso.")
+print("Webscraping Realizado com sucesso!")
